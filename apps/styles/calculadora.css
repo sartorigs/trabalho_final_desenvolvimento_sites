@@ -1,0 +1,62 @@
+section{
+    height: 100vh;
+}
+
+#calculadora{
+    width: 400px;
+    height: 600px;
+    background-color: #333;
+    border-radius: 12px;
+}
+
+#visor{
+    background-color: #555;
+    width: 95%;
+    height: 64px;
+    border-radius: 12px;
+}
+
+#visor > span{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 32px;
+    color: #e0dfdc;
+    text-shadow: -2px 2px #000000;
+}
+
+#botoes{
+    background-color: #777;
+    width: 95%;
+    height: 82%;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.botao{
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+    border-radius: 12px;
+}
+
+.botao > span{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 48px;
+    color: #e0dfdc;
+    text-shadow: -2px 2px #000000;
+}
+
+#btn-voltar{
+    position: absolute;
+    right: 128px;
+    bottom: 64px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 32px;
+    color: #000;
+    transition: font-size 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#btn-voltar:hover{
+    font-size: 40px;
+}
+

@@ -1,0 +1,25 @@
+#Menu{
+    margin-top: auto;
+    height: 100vh;
+}
+.cards{
+    height: 200px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.cards > span, i{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 24px;
+    color: #e0dfdc;
+    text-shadow: -2px 2px #000000;
+    transition: font-size 0.3s ease-in-out;
+    transform: text-shadow 0.3s ease-in-out;
+}
+
+.cards:hover span, i{
+    font-size: 28px;
+}
+
