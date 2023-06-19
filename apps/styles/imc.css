@@ -1,0 +1,77 @@
+section {
+    height: 100vh;
+}
+
+#calculadora-imc {
+    width: 400px;
+    height: 500px;
+    background-color: #333;
+    border-radius: 12px;
+}
+
+.ranges{
+    background-color: #555;
+    width: 90%;
+    height: 120px;
+    border-radius: 12px;
+}
+
+.titulo-range{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 24px;
+    color: #b3b3b3;
+    text-shadow: -2px 2px #000000;
+}
+
+.btn-calcular{
+    background-color: #555;
+    width: 90%;
+    height: 72px;
+    border-radius: 12px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.btn-calcular > span{
+    transition: font-size 0.3s ease-in-out;
+}
+
+.btn-calcular:hover{
+    background-color: #777;
+    border: 1.5px solid #000000;
+    cursor: pointer;
+}
+
+.btn-calcular:hover span{
+    font-size: 32px;
+}
+
+#resultado{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 32px;
+    color: #b3b3b3;
+    text-shadow: -2px 2px #000000;
+    width: 90%;
+}
+
+
+
+.btn-calcular > span{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 24px;
+    color: #b3b3b3;
+    text-shadow: -2px 2px #000000;
+}
+#btn-voltar {
+    position: absolute;
+    right: 128px;
+    bottom: 64px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 32px;
+    color: #000;
+    transition: font-size 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#btn-voltar:hover {
+    font-size: 40px;
+}

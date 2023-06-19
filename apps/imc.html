@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/imc.css">
+    <title>Calculo <picture>
+        <source srcset="sourceset" type="image/svg+xml">
+        <img src="image source" class="img-fluid" alt="image desc">
+      </picture></title>
 </head>
+
 <body>
-    <h1>imc</h1>
+    <section class="d-flex align-items-center justify-content-center">
+        <div id="calculadora-imc">
+            <div class="ranges mx-auto my-4 p-4">
+                <div class="titulo-range my-2">Altura: <span>180</span> cm</div>
+                <input class="w-100 slider" type="range" min="0" max="300" value="180" />
+            </div>
+
+            <div class="ranges mx-auto my-4 p-4">
+                <div class="titulo-range my-2">Peso: <span>70</span> kg</div>
+                <input class="w-100 slider" type="range" min="0" max="800" value="70" />
+            </div>
+
+            <div class="btn-calcular mx-auto d-flex justify-content-center align-items-center">
+                <span>Calcular</span>
+            </div>
+
+            <div id="resultado" class="mx-auto my-4">
+                IMC: <span></span>
+            </div>
+
+
+        </div>
+        <span id="btn-voltar">Voltar</span>
+    </section>
+
 </body>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+<script src="assets/imc.js"></script>
+
 </html>
