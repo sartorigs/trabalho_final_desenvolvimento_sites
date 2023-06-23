@@ -9,10 +9,13 @@ $(document).ready(function() {
     });
 
     $('.btn-calcular').on('click', function(){
-        let altura = $('input').eq(0).val() / 100
+        let altura = $('.ranges input').eq(0).val() / 100
 
-        let peso = $('input').eq(1).val()
+        let peso = $('.ranges input').eq(1).val()
         let result = peso / (altura * altura);
+        console.log(altura)
+        console.log(peso)
+        console.log(result)
         $('#resultado > span').text(result.toFixed(2))
 
     })

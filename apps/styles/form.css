@@ -1,0 +1,84 @@
+section {
+    height: 100vh;
+}
+
+.containers-form {
+    width: 400px;
+    height: 500px;
+    background-color: #333;
+    border-radius: 12px;
+}
+
+#formulario{
+    padding: 24px;
+}
+
+#formulario > label{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 24px;
+    color: #e0dfdc;
+    text-shadow: -2px 2px #000000;
+    width: 100%;
+    margin: 12px 0 0 0;
+}
+
+#formulario > input{
+    width: 100%;
+    height: 2.5em;
+    border-radius: 8px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    padding: 8px;
+}
+
+#btn-enviar{
+    width: 50%;
+    height: 2.5em;
+    background-color: #777;
+    border-radius: 12px;
+    margin: 24px auto 0 auto;
+    transition: height 0.3s ease-in-out;
+}
+
+#btn-enviar > span{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 20px;
+    color: #e0dfdc;
+    text-shadow: -2px 2px #000000;
+}
+
+#btn-enviar:hover{
+    height: 3em;
+    cursor: pointer;
+}
+#result-box{
+    padding: 50px;
+}
+
+#result{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-shadow: -2px 2px #000000;
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+
+#btn-voltar {
+    position: absolute;
+    right: 128px;
+    bottom: 64px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 32px;
+    color: #000;
+    transition: font-size 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#btn-voltar:hover {
+    font-size: 40px;
+}
